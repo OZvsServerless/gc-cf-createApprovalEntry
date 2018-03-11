@@ -10,6 +10,7 @@ This codebase is created to experiment with G Cloud's Cloud Functions. The goal 
   gcloud components install beta
 
 - Install NodeJS and NPM
+Note: Setup a service account to access data store. (details see https://cloud.google.com/datastore/docs/reference/libraries)
 - Clone the repo
 - Run "npm install"
 

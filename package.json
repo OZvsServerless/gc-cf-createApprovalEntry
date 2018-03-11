@@ -1,0 +1,29 @@
+{
+  "name": "gc-cf-createapprovalentry",
+  "version": "1.0.0",
+  "description": "This is a test project to create cloud function on google cloud to create an entry in a data store when a file is added to a bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OZvsServerless/gc-cf-createApprovalEntry.git"
+  },
+  "keywords": [
+    "gcloud",
+    "cloudfunction"
+  ],
+  "author": "Owais Zahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OZvsServerless/gc-cf-createApprovalEntry/issues"
+  },
+  "homepage": "https://github.com/OZvsServerless/gc-cf-createApprovalEntry#readme",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.3.5"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
